@@ -29,6 +29,7 @@ html, body {
 }
 
 .hero{
+    color: #fff;
     width: 100%;
     height: 100vh;
     background-color: var(--BG-Color);
@@ -47,3 +48,98 @@ html, body {
     font-size: 18px;
     color: #fff;
 }
+
+.heading{
+    margin-top: 100px;
+}
+
+.heading h1{
+    font-family: "General Sans";
+    margin-left: 30px;
+    font-size: 10vw;
+    line-height: 1;
+    opacity: .7;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.heading .heading2h1{
+    margin-left: 190px;
+}
+
+.blocktext {
+    width: fit-content;
+    /* background-color: #fffd; */
+}
+
+.blocktext H5{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 15PX;
+}
+
+.secondheading{
+    margin-top: 100px;
+    padding-right: 50px;
+}
+
+.secondheading h5{
+    text-align: right;
+    text-transform: uppercase;
+    margin-top: .5vw;
+    font-size: 1.5vw;
+}
+
+.herofooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 3%;
+    width: 100%;
+    padding: 0 2vw;
+}
+
+.herofooter a{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.herofooter .iconset{
+    display: flex;
+    gap: 5px;
+
+}
+
+.herofooter .circle{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #888;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.second{
+    color: #fff;
+    background: var(--BG-Color);
+    width: 100%;
+    height: 100vh;
+    padding-top: 200px;
+    padding-right: 20vw;
+}
+
+
+.elem{
+    width: 100%;
+    padding: 3.5vw 3vw;
+    border-top: 1px solid #888;
+}
+
+.elem h2{
+    text-transform: uppercase;
+    font-size: 7.6vw;
+    opacity: .7;
+}
+
