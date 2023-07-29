@@ -1,0 +1,49 @@
+
+
+
+/**----------------------boilerplate----------------------**/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: "General Sans";
+}
+
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+:root {
+    --BG-Color:   #000000;
+    --FG-Color:   ;
+}
+
+
+/**----------------------css start----------------------**/
+.main {
+    width: 100%;
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--BG-Color);
+}
+
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 40px;
+    color: #fff;
+}
+
+.nav a{
+    font-size: 18px;
+    color: #fff;
+}
